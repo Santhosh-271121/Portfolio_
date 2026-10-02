@@ -1,215 +1,2071 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Santhosh C — Data Scientist portfolio. Python, SQL, Machine Learning, Power BI, Computer Vision and Data Analytics.">
-  <title>Santhosh C | Data Scientist</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Santhosh C - Data Scientist Portfolio. Python, SQL, Machine Learning, Power BI, Data Analytics and Computer Vision.">
+
+    <meta name="keywords"
+          content="Santhosh C, Data Scientist, Data Analyst, Python, SQL, Machine Learning, Power BI, Portfolio">
+
+    <meta name="author"
+          content="Santhosh C">
+
+    <title>Santhosh C | Data Scientist</title>
+
+    <!-- ================================
+         GOOGLE FONTS
+    ================================= -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- ================================
+         ICONS
+    ================================= -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- ================================
+         AOS ANIMATION
+    ================================= -->
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- ================================
+         CUSTOM CSS
+    ================================= -->
+
+    <link rel="stylesheet"
+          href="style.css">
 </head>
+
 <body>
-  <div class="noise"></div>
 
-  <header class="nav">
-    <a class="brand" href="#home"><span>SC</span> Santhosh C</a>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="nav-cta" href="#contact">Let's connect ↗</a>
-  </header>
+<!-- =====================================
+     PAGE LOADER
+===================================== -->
 
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-copy">
-        <div class="eyebrow"><i></i> DATA SCIENCE • ANALYTICS • AI</div>
-        <h1>I turn <span>data</span><br>into decisions.</h1>
-        <p class="hero-text">
-          I'm <strong>Santhosh C</strong>, a Data Science undergraduate building practical
-          solutions with Python, SQL, machine learning, Power BI and computer vision.
+<div class="loader" id="loader">
+
+    <div class="loader-content">
+
+        <div class="loader-logo">
+            SC
+        </div>
+
+        <div class="loader-line"></div>
+
+        <p>
+            Loading portfolio...
         </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">Explore my work <span>↓</span></a>
-          <a class="button ghost" href="https://github.com/Santhosh-271121" target="_blank" rel="noreferrer">GitHub ↗</a>
-        </div>
-        <div class="quick-stats">
-          <div><strong>8.46</strong><span>CGPA / 10</span></div>
-          <div><strong>2027</strong><span>Graduation</span></div>
-          <div><strong>IBM</strong><span>Certified Data Analyst</span></div>
-        </div>
-      </div>
 
-      <div class="hero-visual">
-        <div class="orb"></div>
-        <div class="data-card card-a">
-          <span>MODEL STATUS</span><b>● ONLINE</b>
-        </div>
-        <div class="data-card card-b">
-          <span>CORE STACK</span>
-          <div class="mini-tags"><em>Python</em><em>SQL</em><em>ML</em></div>
-        </div>
-        <div class="terminal">
-          <div class="terminal-bar"><span></span><span></span><span></span><small>santhosh.py</small></div>
-          <pre><code><span class="purple">def</span> <span class="blue">solve</span>(data):
-    clean = preprocess(data)
-    features = engineer(clean)
-    model = train(features)
+    </div>
 
-    <span class="purple">return</span> insights(model)</code></pre>
-          <div class="terminal-footer"><span>⌁ building practical AI</span><span>01 / 05</span></div>
-        </div>
-      </div>
-    </section>
+</div>
 
-    <section class="marquee">
-      <div>PYTHON <b>✦</b> SQL <b>✦</b> MACHINE LEARNING <b>✦</b> POWER BI <b>✦</b> COMPUTER VISION <b>✦</b> DATA ANALYTICS <b>✦</b></div>
-    </section>
 
-    <section id="about" class="section about">
-      <div class="section-label">01 / ABOUT</div>
-      <div class="section-content two-col">
-        <div>
-          <h2>Curious about data.<br><span>Serious about impact.</span></h2>
-        </div>
-        <div>
-          <p class="lead">I enjoy taking a messy problem, understanding the data behind it, and turning it into something useful — whether that's a predictive model, an interactive dashboard, or a computer-vision system.</p>
-          <p>My work spans data cleaning, exploratory analysis, statistical thinking, supervised learning, visualization and real-time computer vision. I also enjoy explaining technical ideas clearly and building projects end-to-end.</p>
-          <div class="pill-row">
-            <span>Analytical thinker</span><span>Project-driven</span><span>Fast learner</span><span>Business-focused</span>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- =====================================
+     SCROLL PROGRESS
+===================================== -->
 
-    <section id="skills" class="section skills">
-      <div class="section-label">02 / SKILLS</div>
-      <div class="section-content">
-        <div class="skill-intro">
-          <h2>My toolkit.</h2>
-          <p>Technologies I use to move from raw data to working solutions.</p>
-        </div>
-        <div class="skill-grid">
-          <article class="skill-card featured"><div class="skill-icon">01</div><h3>Data Science</h3><p>Python, Pandas, NumPy, EDA, statistics, feature engineering, model evaluation.</p><div class="chips"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span></div></article>
-          <article class="skill-card"><div class="skill-icon">02</div><h3>SQL & Databases</h3><p>Querying and transforming relational data for analysis and reporting.</p><div class="chips"><span>SQL</span><span>SQLite</span><span>Joins</span><span>Aggregations</span></div></article>
-          <article class="skill-card"><div class="skill-icon">03</div><h3>BI & Visualization</h3><p>Turning metrics into dashboards that make patterns and KPIs easy to understand.</p><div class="chips"><span>Power BI</span><span>Excel</span><span>Matplotlib</span><span>Plotly</span></div></article>
-          <article class="skill-card"><div class="skill-icon">04</div><h3>Machine Learning</h3><p>Supervised learning workflows from preprocessing through evaluation.</p><div class="chips"><span>Regression</span><span>Classification</span><span>Scaling</span><span>Feature Engineering</span></div></article>
-          <article class="skill-card"><div class="skill-icon">05</div><h3>Computer Vision</h3><p>Real-time object detection and safety-oriented vision applications.</p><div class="chips"><span>OpenCV</span><span>YOLOv8</span><span>Object Detection</span></div></article>
-          <article class="skill-card"><div class="skill-icon">06</div><h3>Tools</h3><p>Comfortable building and documenting projects with modern development tools.</p><div class="chips"><span>Git</span><span>GitHub</span><span>Jupyter</span><span>Colab</span><span>VS Code</span></div></article>
-        </div>
-      </div>
-    </section>
+<div class="scroll-progress"
+     id="scrollProgress"></div>
 
-    <section id="projects" class="section projects">
-      <div class="section-label">03 / SELECTED WORK</div>
-      <div class="section-content">
-        <div class="project-head">
-          <h2>Projects that show<br><span>how I think.</span></h2>
-          <p>End-to-end work across analytics, BI and AI.</p>
+
+<!-- =====================================
+     NAVIGATION
+===================================== -->
+
+<header class="header" id="header">
+
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">
+
+            <span class="logo-bracket">&lt;</span>
+
+            SC
+
+            <span class="logo-bracket">/&gt;</span>
+
+        </a>
+
+
+        <div class="nav-menu" id="navMenu">
+
+            <a href="#home" class="nav-link active">
+                Home
+            </a>
+
+            <a href="#about" class="nav-link">
+                About
+            </a>
+
+            <a href="#skills" class="nav-link">
+                Skills
+            </a>
+
+            <a href="#projects" class="nav-link">
+                Projects
+            </a>
+
+            <a href="#experience" class="nav-link">
+                Experience
+            </a>
+
+            <a href="#contact" class="nav-link">
+                Contact
+            </a>
+
         </div>
 
-        <article class="project featured-project">
-          <div class="project-number">01</div>
-          <div class="project-info">
-            <div class="project-type">BUSINESS INTELLIGENCE • POWER BI</div>
-            <h3>Amazon Sales Analysis</h3>
-            <p>Interactive business intelligence dashboard analyzing 100,000+ orders, 300K+ units and $92M+ in revenue. Built KPI tracking, product/category analysis, state-level mapping and monthly trends.</p>
-            <div class="chips"><span>Power BI</span><span>Excel</span><span>Data Analysis</span><span>KPI Reporting</span></div>
-          </div>
-          <div class="project-metric"><strong>92M+</strong><small>revenue analyzed</small><strong>100K+</strong><small>orders</small></div>
-        </article>
 
-        <article class="project">
-          <div class="project-number">02</div>
-          <div class="project-info">
-            <div class="project-type">AI • COMPUTER VISION • FLASK</div>
-            <h3>Pedestrian Safety & Driver Assistance</h3>
-            <p>Real-time browser-based system using YOLOv8 to detect pedestrians and vehicles, estimate object distance and classify risk into High Risk, Moderate and Allowed with visual and voice alerts.</p>
-            <div class="chips"><span>Python</span><span>YOLOv8</span><span>OpenCV</span><span>Flask</span></div>
-          </div>
-          <div class="project-side-label">REAL-TIME<br>VISION SYSTEM</div>
-        </article>
+        <div class="nav-actions">
 
-        <article class="project">
-          <div class="project-number">03</div>
-          <div class="project-info">
-            <div class="project-type">DATA ANALYTICS • CAREER PROJECT</div>
-            <h3>Deloitte Data Analytics Job Simulation</h3>
-            <p>Completed a practical analytics simulation focused on working with data, visualization and communicating business findings in a realistic professional context.</p>
-            <div class="chips"><span>Data Analysis</span><span>Visualization</span><span>Business Insights</span></div>
-          </div>
-          <div class="project-side-label">FOREAGE<br>SIMULATION</div>
-        </article>
-      </div>
-    </section>
+            <button
+                class="theme-toggle"
+                id="themeToggle"
+                aria-label="Toggle theme">
 
-    <section id="experience" class="section experience">
-      <div class="section-label">04 / EXPERIENCE</div>
-      <div class="section-content">
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+
+            <a
+                href="https://www.linkedin.com/in/santhosh-c-19a766335"
+                target="_blank"
+                class="nav-connect">
+
+                Let's Connect
+
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open menu">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =====================================
+     HERO
+===================================== -->
+
+<section class="hero section" id="home">
+
+    <div class="hero-grid"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content"
+             data-aos="fade-up">
+
+            <div class="availability">
+
+                <span class="status-dot"></span>
+
+                Available for opportunities
+
+            </div>
+
+
+            <p class="hero-intro">
+                Hello, I'm
+            </p>
+
+
+            <h1>
+
+                Santhosh
+
+                <span>
+                    C.
+                </span>
+
+            </h1>
+
+
+            <div class="typing-container">
+
+                <span>
+                    I am a
+                </span>
+
+                <span
+                    class="typing-text"
+                    id="typingText">
+
+                </span>
+
+            </div>
+
+
+            <p class="hero-description">
+
+                I transform raw data into meaningful insights,
+                predictive models and interactive business
+                solutions using Python, SQL, Machine Learning
+                and modern visualization tools.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#projects"
+                    class="btn btn-primary">
+
+                    View My Work
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+                <a
+                    href="assets/Santhosh_C_Resume.pdf"
+                    class="btn btn-secondary"
+                    target="_blank">
+
+                    View Resume
+
+                    <i class="fa-solid fa-file-arrow-down"></i>
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-social">
+
+                <a
+                    href="https://github.com/Santhosh-271121"
+                    target="_blank"
+                    aria-label="GitHub">
+
+                    <i class="fa-brands fa-github"></i>
+
+                </a>
+
+
+                <a
+                    href="https://www.linkedin.com/in/santhosh-c-19a766335"
+                    target="_blank"
+                    aria-label="LinkedIn">
+
+                    <i class="fa-brands fa-linkedin-in"></i>
+
+                </a>
+
+
+                <a
+                    href="mailto:your-email@example.com"
+                    aria-label="Email">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HERO VISUAL -->
+
+        <div
+            class="hero-visual"
+            data-aos="fade-left">
+
+            <div class="data-orbit">
+
+                <div class="orbit orbit-1"></div>
+
+                <div class="orbit orbit-2"></div>
+
+                <div class="orbit orbit-3"></div>
+
+
+                <div class="profile-card">
+
+                    <div class="profile-card-top">
+
+                        <span>
+                            DATA_SCIENCE.py
+                        </span>
+
+                        <div class="window-buttons">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="code-area">
+
+                        <div>
+                            <span class="code-number">01</span>
+
+                            <span class="keyword">
+                                import
+                            </span>
+
+                            pandas
+                            <span class="keyword">
+                                as
+                            </span>
+                            pd
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="code-number">02</span>
+
+                            <span class="keyword">
+                                import
+                            </span>
+
+                            numpy
+                            <span class="keyword">
+                                as
+                            </span>
+                            np
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="code-number">03</span>
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="code-number">04</span>
+
+                            data = pd.read_csv(
+
+                            <span class="string">
+                                "data.csv"
+                            </span>
+
+                            )
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="code-number">05</span>
+
+                            data.clean()
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="code-number">06</span>
+
+                            model.fit(data)
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="code-number">07</span>
+
+                            insights = model.predict()
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="code-number">08</span>
+
+                            <span class="keyword">
+                                return
+                            </span>
+
+                            insights
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="floating-card card-python">
+
+                    <i class="fa-brands fa-python"></i>
+
+                    <span>
+                        Python
+                    </span>
+
+                </div>
+
+
+                <div class="floating-card card-sql">
+
+                    <i class="fa-solid fa-database"></i>
+
+                    <span>
+                        SQL
+                    </span>
+
+                </div>
+
+
+                <div class="floating-card card-ml">
+
+                    <i class="fa-solid fa-brain"></i>
+
+                    <span>
+                        ML
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="scroll-indicator">
+
+        <span>
+            Scroll to explore
+        </span>
+
+        <i class="fa-solid fa-arrow-down"></i>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     STATS
+===================================== -->
+
+<section class="stats-section">
+
+    <div class="container stats-grid">
+
+
+        <div class="stat-card"
+             data-aos="fade-up">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-graduation-cap"></i>
+
+            </div>
+
+            <div>
+
+                <strong
+                    class="counter"
+                    data-target="8.46">
+
+                    0
+
+                </strong>
+
+                <span>
+                    CGPA / 10
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="stat-card"
+             data-aos="fade-up"
+             data-aos-delay="100">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-calendar"></i>
+
+            </div>
+
+            <div>
+
+                <strong
+                    class="counter"
+                    data-target="2027">
+
+                    0
+
+                </strong>
+
+                <span>
+                    Graduation
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="stat-card"
+             data-aos="fade-up"
+             data-aos-delay="200">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-certificate"></i>
+
+            </div>
+
+            <div>
+
+                <strong>
+                    IBM
+                </strong>
+
+                <span>
+                    Data Analyst Certified
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="stat-card"
+             data-aos="fade-up"
+             data-aos-delay="300">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-code"></i>
+
+            </div>
+
+            <div>
+
+                <strong>
+                    DS
+                </strong>
+
+                <span>
+                    Primary Focus
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     ABOUT
+===================================== -->
+
+<section
+    class="about section"
+    id="about">
+
+    <div class="container">
+
+        <div class="section-header"
+             data-aos="fade-up">
+
+            <span class="section-label">
+                01 — ABOUT ME
+            </span>
+
+            <h2>
+                Building with
+                <span>data.</span>
+            </h2>
+
+            <p>
+                A data-focused developer interested in solving
+                practical problems through analytics,
+                machine learning and intelligent systems.
+            </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+
+            <div
+                class="about-text"
+                data-aos="fade-right">
+
+                <p>
+
+                    I am a Computer Science and Systems Engineering
+                    student at REVA University with a strong interest
+                    in Data Science, Machine Learning and Business
+                    Intelligence.
+
+                </p>
+
+
+                <p>
+
+                    My approach combines programming, statistical
+                    thinking and visualization to understand data
+                    and convert it into useful decisions.
+
+                </p>
+
+
+                <p>
+
+                    I enjoy working across the complete data workflow:
+                    collecting and cleaning data, exploring patterns,
+                    building models and communicating results through
+                    clear visualizations.
+
+                </p>
+
+
+                <a
+                    href="#contact"
+                    class="text-link">
+
+                    Let's work together
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+
+
+            <div
+                class="about-terminal"
+                data-aos="fade-left">
+
+                <div class="terminal-header">
+
+                    <div class="terminal-dots">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <span>
+                        santhosh@datascience:~
+                    </span>
+
+                </div>
+
+
+                <div class="terminal-body">
+
+                    <p>
+                        <span class="terminal-green">
+                            $
+                        </span>
+
+                        whoami
+                    </p>
+
+                    <p class="terminal-output">
+                        Data Science Student
+                    </p>
+
+
+                    <p>
+
+                        <span class="terminal-green">
+                            $
+                        </span>
+
+                        focus
+                    </p>
+
+                    <p class="terminal-output">
+                        Python · SQL · ML · Power BI
+                    </p>
+
+
+                    <p>
+
+                        <span class="terminal-green">
+                            $
+                        </span>
+
+                        location
+                    </p>
+
+                    <p class="terminal-output">
+                        Bengaluru, India
+                    </p>
+
+
+                    <p>
+
+                        <span class="terminal-green">
+                            $
+                        </span>
+
+                        status
+                    </p>
+
+                    <p class="terminal-output">
+                        Open to opportunities
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     SKILLS
+===================================== -->
+
+<section
+    class="skills section"
+    id="skills">
+
+    <div class="container">
+
+        <div class="section-header"
+             data-aos="fade-up">
+
+            <span class="section-label">
+                02 — SKILLS
+            </span>
+
+            <h2>
+                Technical
+                <span>toolkit.</span>
+            </h2>
+
+            <p>
+                Technologies I use to analyze data,
+                build models and create useful products.
+            </p>
+
+        </div>
+
+
+        <div class="skills-filter">
+
+            <button
+                class="skill-filter active"
+                data-filter="all">
+
+                All
+
+            </button>
+
+            <button
+                class="skill-filter"
+                data-filter="data">
+
+                Data
+
+            </button>
+
+            <button
+                class="skill-filter"
+                data-filter="ml">
+
+                Machine Learning
+
+            </button>
+
+            <button
+                class="skill-filter"
+                data-filter="bi">
+
+                BI
+
+            </button>
+
+            <button
+                class="skill-filter"
+                data-filter="tools">
+
+                Tools
+
+            </button>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <div
+                class="skill-card"
+                data-category="data"
+                data-aos="fade-up">
+
+                <div class="skill-card-icon">
+
+                    <i class="fa-brands fa-python"></i>
+
+                </div>
+
+                <h3>
+                    Python
+                </h3>
+
+                <p>
+                    Data processing and analysis
+                </p>
+
+                <div class="skill-progress">
+
+                    <div
+                        class="skill-progress-bar"
+                        data-width="90%">
+
+                    </div>
+
+                </div>
+
+                <span>
+                    Advanced
+                </span>
+
+            </div>
+
+
+            <div
+                class="skill-card"
+                data-category="data"
+                data-aos="fade-up">
+
+                <div class="skill-card-icon">
+
+                    <i class="fa-solid fa-database"></i>
+
+                </div>
+
+                <h3>
+                    SQL
+                </h3>
+
+                <p>
+                    Queries, joins and analytics
+                </p>
+
+                <div class="skill-progress">
+
+                    <div
+                        class="skill-progress-bar"
+                        data-width="85%">
+
+                    </div>
+
+                </div>
+
+                <span>
+                    Strong
+                </span>
+
+            </div>
+
+
+            <div
+                class="skill-card"
+                data-category="ml"
+                data-aos="fade-up">
+
+                <div class="skill-card-icon">
+
+                    <i class="fa-solid fa-brain"></i>
+
+                </div>
+
+                <h3>
+                    Machine Learning
+                </h3>
+
+                <p>
+                    Regression and classification
+                </p>
+
+                <div class="skill-progress">
+
+                    <div
+                        class="skill-progress-bar"
+                        data-width="80%">
+
+                    </div>
+
+                </div>
+
+                <span>
+                    Intermediate
+                </span>
+
+            </div>
+
+
+            <div
+                class="skill-card"
+                data-category="bi"
+                data-aos="fade-up">
+
+                <div class="skill-card-icon">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                </div>
+
+                <h3>
+                    Power BI
+                </h3>
+
+                <p>
+                    Dashboards and KPI reporting
+                </p>
+
+                <div class="skill-progress">
+
+                    <div
+                        class="skill-progress-bar"
+                        data-width="88%">
+
+                    </div>
+
+                </div>
+
+                <span>
+                    Strong
+                </span>
+
+            </div>
+
+
+            <div
+                class="skill-card"
+                data-category="data"
+                data-aos="fade-up">
+
+                <div class="skill-card-icon">
+
+                    <i class="fa-solid fa-chart-simple"></i>
+
+                </div>
+
+                <h3>
+                    Pandas & NumPy
+                </h3>
+
+                <p>
+                    Data manipulation and analysis
+                </p>
+
+                <div class="skill-progress">
+
+                    <div
+                        class="skill-progress-bar"
+                        data-width="88%">
+
+                    </div>
+
+                </div>
+
+                <span>
+                    Strong
+                </span>
+
+            </div>
+
+
+            <div
+                class="skill-card"
+                data-category="ml"
+                data-aos="fade-up">
+
+                <div class="skill-card-icon">
+
+                    <i class="fa-solid fa-eye"></i>
+
+                </div>
+
+                <h3>
+                    Computer Vision
+                </h3>
+
+                <p>
+                    OpenCV and YOLOv8
+                </p>
+
+                <div class="skill-progress">
+
+                    <div
+                        class="skill-progress-bar"
+                        data-width="78%">
+
+                    </div>
+
+                </div>
+
+                <span>
+                    Intermediate
+                </span>
+
+            </div>
+
+
+            <div
+                class="skill-card"
+                data-category="bi"
+                data-aos="fade-up">
+
+                <div class="skill-card-icon">
+
+                    <i class="fa-solid fa-file-excel"></i>
+
+                </div>
+
+                <h3>
+                    Excel
+                </h3>
+
+                <p>
+                    Analysis and reporting
+                </p>
+
+                <div class="skill-progress">
+
+                    <div
+                        class="skill-progress-bar"
+                        data-width="90%">
+
+                    </div>
+
+                </div>
+
+                <span>
+                    Advanced
+                </span>
+
+            </div>
+
+
+            <div
+                class="skill-card"
+                data-category="tools"
+                data-aos="fade-up">
+
+                <div class="skill-card-icon">
+
+                    <i class="fa-brands fa-github"></i>
+
+                </div>
+
+                <h3>
+                    Git & GitHub
+                </h3>
+
+                <p>
+                    Version control and collaboration
+                </p>
+
+                <div class="skill-progress">
+
+                    <div
+                        class="skill-progress-bar"
+                        data-width="82%">
+
+                    </div>
+
+                </div>
+
+                <span>
+                    Strong
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PROJECTS
+===================================== -->
+
+<section
+    class="projects section"
+    id="projects">
+
+    <div class="container">
+
+        <div class="section-header"
+             data-aos="fade-up">
+
+            <span class="section-label">
+                03 — PROJECTS
+            </span>
+
+            <h2>
+                Selected
+                <span>work.</span>
+            </h2>
+
+            <p>
+                Practical projects combining data,
+                machine learning and visualization.
+            </p>
+
+        </div>
+
+
+        <div class="project-filter">
+
+            <button
+                class="project-filter-btn active"
+                data-filter="all">
+
+                All Projects
+
+            </button>
+
+            <button
+                class="project-filter-btn"
+                data-filter="data">
+
+                Data Analytics
+
+            </button>
+
+            <button
+                class="project-filter-btn"
+                data-filter="ml">
+
+                Machine Learning
+
+            </button>
+
+            <button
+                class="project-filter-btn"
+                data-filter="bi">
+
+                Business Intelligence
+
+            </button>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 01 -->
+
+            <article
+                class="project-card featured"
+                data-category="bi"
+                data-aos="fade-up">
+
+                <div class="project-image amazon-project">
+
+                    <div class="project-overlay">
+
+                        <span>
+                            POWER BI
+                        </span>
+
+                    </div>
+
+                    <div class="dashboard-preview">
+
+                        <div class="chart chart-1"></div>
+
+                        <div class="chart chart-2"></div>
+
+                        <div class="chart chart-3"></div>
+
+                        <div class="chart chart-4"></div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Amazon Sales Intelligence Dashboard
+                    </h3>
+
+                    <p>
+
+                        Interactive business intelligence dashboard
+                        analyzing sales performance, revenue,
+                        orders, products and geographic trends.
+
+                    </p>
+
+
+                    <div class="project-metrics">
+
+                        <div>
+
+                            <strong>
+                                $92M+
+                            </strong>
+
+                            <span>
+                                Revenue
+                            </span>
+
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                100K+
+                            </strong>
+
+                            <span>
+                                Orders
+                            </span>
+
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                300K+
+                            </strong>
+
+                            <span>
+                                Units
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-tech">
+
+                        <span>
+                            Power BI
+                        </span>
+
+                        <span>
+                            Excel
+                        </span>
+
+                        <span>
+                            Data Analysis
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 02 -->
+
+            <article
+                class="project-card"
+                data-category="ml"
+                data-aos="fade-up">
+
+                <div class="project-image ai-project">
+
+                    <div class="project-overlay">
+
+                        <span>
+                            COMPUTER VISION
+                        </span>
+
+                    </div>
+
+
+                    <div class="ai-scanner">
+
+                        <div class="scanner-line"></div>
+
+                        <div class="detection-box box-1">
+
+                            <span>
+                                PERSON
+                            </span>
+
+                        </div>
+
+                        <div class="detection-box box-2">
+
+                            <span>
+                                VEHICLE
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <h3>
+                        AI Pedestrian Safety System
+                    </h3>
+
+                    <p>
+
+                        Real-time computer vision system using
+                        YOLOv8 to detect pedestrians and vehicles,
+                        estimate distance and generate safety alerts.
+
+                    </p>
+
+
+                    <div class="project-features">
+
+                        <span>
+                            Object Detection
+                        </span>
+
+                        <span>
+                            Distance Estimation
+                        </span>
+
+                        <span>
+                            Risk Engine
+                        </span>
+
+                        <span>
+                            Voice Alerts
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-tech">
+
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            YOLOv8
+                        </span>
+
+                        <span>
+                            OpenCV
+                        </span>
+
+                        <span>
+                            Flask
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 03 -->
+
+            <article
+                class="project-card"
+                data-category="data"
+                data-aos="fade-up">
+
+                <div class="project-image analytics-project">
+
+                    <div class="analytics-bars">
+
+                        <span style="height:35%"></span>
+                        <span style="height:55%"></span>
+                        <span style="height:45%"></span>
+                        <span style="height:75%"></span>
+                        <span style="height:65%"></span>
+                        <span style="height:90%"></span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Deloitte Data Analytics Simulation
+                    </h3>
+
+                    <p>
+
+                        Practical analytics experience involving
+                        business data analysis, visualization and
+                        extracting insights from datasets.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>
+                            Data Analysis
+                        </span>
+
+                        <span>
+                            Tableau
+                        </span>
+
+                        <span>
+                            Visualization
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     EXPERIENCE
+===================================== -->
+
+<section
+    class="experience section"
+    id="experience">
+
+    <div class="container">
+
+        <div class="section-header"
+             data-aos="fade-up">
+
+            <span class="section-label">
+                04 — EXPERIENCE
+            </span>
+
+            <h2>
+                Professional
+                <span>journey.</span>
+            </h2>
+
+        </div>
+
+
         <div class="timeline">
-          <div class="timeline-item current">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">CURRENT</div>
-            <div class="timeline-main">
-              <h3>Data Science — Pursuit Private Limited</h3>
-              <p>Working in a data science role, applying analytical and technical skills to practical data-focused work.</p>
-              <div class="chips"><span>Data Science</span><span>Python</span><span>Analytics</span></div>
+
+
+            <div
+                class="timeline-item"
+                data-aos="fade-right">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    Current
+                </div>
+
+
+                <div class="timeline-content">
+
+                    <span class="timeline-type">
+                        Data Science
+                    </span>
+
+                    <h3>
+                        Pursuit Private Limited
+                    </h3>
+
+                    <p>
+
+                        Working in a Data Science role with
+                        exposure to practical data-driven
+                        problem solving and analytical workflows.
+
+                    </p>
+
+
+                    <div class="timeline-tags">
+
+                        <span>
+                            Data Science
+                        </span>
+
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            Analytics
+                        </span>
+
+                    </div>
+
+                </div>
+
             </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">EDUCATION</div>
-            <div class="timeline-main">
-              <h3>B.Tech — Computer Science & Systems Engineering</h3>
-              <p>REVA University, Bengaluru · Expected 2027 · CGPA 8.46/10</p>
-              <div class="chips"><span>Machine Learning</span><span>DBMS</span><span>Computer Vision</span><span>Statistics</span></div>
+
+
+            <div
+                class="timeline-item"
+                data-aos="fade-right">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    Education
+                </div>
+
+
+                <div class="timeline-content">
+
+                    <span class="timeline-type">
+                        B.Tech
+                    </span>
+
+                    <h3>
+                        REVA University
+                    </h3>
+
+                    <p>
+
+                        Computer Science and Systems Engineering.
+                        Focused on Data Science, Machine Learning,
+                        Database Systems and Software Engineering.
+
+                    </p>
+
+
+                    <div class="timeline-tags">
+
+                        <span>
+                            CGPA 8.46
+                        </span>
+
+                        <span>
+                            2027
+                        </span>
+
+                    </div>
+
+                </div>
+
             </div>
-          </div>
+
         </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     CERTIFICATIONS
+===================================== -->
+
+<section
+    class="certifications section">
+
+    <div class="container">
+
+        <div class="section-header"
+             data-aos="fade-up">
+
+            <span class="section-label">
+                05 — CERTIFICATIONS
+            </span>
+
+            <h2>
+                Continuous
+                <span>learning.</span>
+            </h2>
+
+        </div>
+
 
         <div class="cert-grid">
-          <div class="cert"><span>IBM</span><div><strong>IBM Data Analyst Professional Certificate</strong><small>Coursera · Score 89%</small></div></div>
-          <div class="cert"><span>D</span><div><strong>Deloitte Australia Data Analytics Job Simulation</strong><small>Forage</small></div></div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section services">
-      <div class="section-label">05 / WHAT I CAN DO</div>
-      <div class="section-content">
-        <div class="service-grid">
-          <div><span>01</span><h3>Data Analysis</h3><p>Clean, explore and interpret structured data to uncover useful patterns.</p></div>
-          <div><span>02</span><h3>Machine Learning</h3><p>Build practical supervised-learning workflows from preprocessing to evaluation.</p></div>
-          <div><span>03</span><h3>Dashboards</h3><p>Create Power BI and Excel dashboards with clear KPIs and decision-ready visuals.</p></div>
-          <div><span>04</span><h3>AI Prototypes</h3><p>Build practical Python and computer-vision applications from idea to working prototype.</p></div>
-        </div>
-      </div>
-    </section>
 
-    <section id="contact" class="contact">
-      <div class="contact-inner">
-        <div class="eyebrow"><i></i> AVAILABLE FOR OPPORTUNITIES</div>
-        <h2>Have data?<br><span>Let's build something.</span></h2>
-        <p>I'm open to Data Science, Data Analytics, Machine Learning and project opportunities — including freelance data projects.</p>
-        <div class="contact-actions">
-          <a class="button primary" href="mailto:santhoshsanthosh2292@gmail.com">Email me ↗</a>
-          <a class="button ghost light" href="https://www.linkedin.com/in/santhosh-c-19a766335" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          <a class="button ghost light" href="https://github.com/Santhosh-271121" target="_blank" rel="noreferrer">GitHub ↗</a>
-        </div>
-        <div class="contact-meta">
-          <span>santhoshsanthosh2292@gmail.com</span>
-          <span>Bengaluru, Karnataka</span>
-        </div>
-      </div>
-    </section>
-  </main>
+            <div
+                class="cert-card"
+                data-aos="fade-up">
 
-  <footer><span>© 2026 Santhosh C</span><span>Built with Python, curiosity & data.</span></footer>
-  <script src="script.js"></script>
+                <div class="cert-logo">
+                    IBM
+                </div>
+
+                <div>
+
+                    <span>
+                        IBM / Coursera
+                    </span>
+
+                    <h3>
+                        IBM Data Analyst Professional Certificate
+                    </h3>
+
+                    <p>
+                        11-course professional certificate covering
+                        Python, SQL, Excel, statistics,
+                        visualization and dashboards.
+                    </p>
+
+                    <strong>
+                        Score: 89%
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="cert-card"
+                data-aos="fade-up"
+                data-aos-delay="100">
+
+                <div class="cert-logo">
+                    DA
+                </div>
+
+                <div>
+
+                    <span>
+                        Deloitte
+                    </span>
+
+                    <h3>
+                        Data Analytics Job Simulation
+                    </h3>
+
+                    <p>
+                        Practical experience focused on data analysis,
+                        visualization and business insights.
+                    </p>
+
+                    <strong>
+                        Forage Simulation
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     CONTACT
+===================================== -->
+
+<section
+    class="contact section"
+    id="contact">
+
+    <div class="container">
+
+        <div class="contact-wrapper">
+
+
+            <div
+                class="contact-content"
+                data-aos="fade-right">
+
+                <span class="section-label">
+                    06 — CONTACT
+                </span>
+
+                <h2>
+
+                    Let's build
+                    something
+                    <span>meaningful.</span>
+
+                </h2>
+
+                <p>
+
+                    Interested in Data Science, analytics,
+                    machine learning or a data-driven project?
+
+                    Let's connect and discuss what we can build.
+
+                </p>
+
+
+                <div class="contact-links">
+
+                    <a
+                        href="mailto:your-email@example.com"
+                        class="contact-link">
+
+                        <div>
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </div>
+
+                        <span>
+                            Email Me
+                        </span>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/santhosh-c-19a766335"
+                        target="_blank"
+                        class="contact-link">
+
+                        <div>
+
+                            <i class="fa-brands fa-linkedin-in"></i>
+
+                        </div>
+
+                        <span>
+                            LinkedIn
+                        </span>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://github.com/Santhosh-271121"
+                        target="_blank"
+                        class="contact-link">
+
+                        <div>
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </div>
+
+                        <span>
+                            GitHub
+                        </span>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div
+                class="contact-form-wrapper"
+                data-aos="fade-left">
+
+                <form
+                    class="contact-form"
+                    id="contactForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="your@email.com"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="Project / Opportunity"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Tell me about your project..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary form-submit">
+
+                        Send Message
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </button>
+
+                    <p
+                        class="form-status"
+                        id="formStatus">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     FOOTER
+===================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <div>
+
+            <a
+                href="#home"
+                class="footer-logo">
+
+                SC
+
+            </a>
+
+            <p>
+                Data Scientist focused on turning
+                data into meaningful solutions.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#projects">
+                Projects
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="footer-social">
+
+            <a
+                href="https://github.com/Santhosh-271121"
+                target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/santhosh-c-19a766335"
+                target="_blank">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>
+                © 2026 Santhosh C. All rights reserved.
+            </p>
+
+            <p>
+                Designed & Built with HTML, CSS & JavaScript
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================
+     BACK TO TOP
+===================================== -->
+
+<button
+    class="back-to-top"
+    id="backToTop"
+    aria-label="Back to top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+
+<!-- =====================================
+     SCRIPTS
+===================================== -->
+
+<script
+    src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+</script>
+
+<script
+    src="script.js">
+</script>
+
 </body>
 </html>
