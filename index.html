@@ -1,357 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <meta name="description"
-        content="Santhosh C — Data Scientist specializing in Python, SQL, Machine Learning, Power BI, Data Analytics and Computer Vision.">
+    <meta
+        name="description"
+        content="Santhosh C — Data Scientist portfolio showcasing Python, SQL, Machine Learning, Power BI, Data Analytics and Computer Vision projects."
+    >
 
-    <meta name="keywords"
-        content="Santhosh C, Data Scientist, Data Analyst, Python, SQL, Machine Learning, Power BI, Data Science, Computer Vision">
+    <meta
+        name="keywords"
+        content="Santhosh C, Data Scientist, Data Analyst, Python, SQL, Machine Learning, Power BI, Computer Vision"
+    >
 
     <meta name="author" content="Santhosh C">
 
-    <meta name="theme-color" content="#0b0f19">
+    <meta
+        name="theme-color"
+        content="#0b0f14"
+    >
 
     <title>Santhosh C | Data Scientist</title>
 
-    <!-- =====================================================
-         FONTS
-    ====================================================== -->
-
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"
+    >
 
-
-    <!-- =====================================================
-         FONT AWESOME
-    ====================================================== -->
-
+    <!-- Icons -->
     <link
         rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
 
-
-    <!-- =====================================================
-         AOS ANIMATION
-    ====================================================== -->
-
+    <!-- Animation -->
     <link
         rel="stylesheet"
-        href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    >
 
-
-    <!-- =====================================================
-         STYLESHEET
-    ====================================================== -->
-
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 
 <body>
 
-    <!-- =====================================================
-         PAGE LOADER
-    ====================================================== -->
+    <!-- ================= LOADER ================= -->
 
-    <div id="loader" class="loader">
-
-        <div class="loader-inner">
-
-            <div class="loader-logo">
-                SC
-            </div>
-
-            <div class="loader-bar">
-                <span></span>
-            </div>
-
-            <p>Loading portfolio...</p>
-
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <span>Loading Portfolio</span>
         </div>
-
     </div>
 
 
-    <!-- =====================================================
-         SCROLL PROGRESS
-    ====================================================== -->
+    <!-- ================= SCROLL PROGRESS ================= -->
 
-    <div
-        id="scroll-progress"
-        class="scroll-progress">
-    </div>
+    <div class="scroll-progress" id="scrollProgress"></div>
 
 
-    <!-- =====================================================
-         HEADER
-    ====================================================== -->
+    <!-- ================= HEADER ================= -->
 
     <header class="header" id="header">
 
-        <div class="container nav-container">
-
-            <!-- LOGO -->
+        <nav class="navbar">
 
             <a href="#home" class="logo">
-
-                <span class="logo-bracket">&lt;</span>
-
-                <span>SC</span>
-
-                <span class="logo-bracket">/&gt;</span>
-
+                S<span>C</span>
             </a>
 
+            <div class="nav-menu" id="navMenu">
 
-            <!-- NAVIGATION -->
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
 
-            <nav class="navbar" id="navbar">
-
-                <a
-                    href="#home"
-                    class="nav-link active">
-                    Home
-                </a>
-
-                <a
-                    href="#about"
-                    class="nav-link">
-                    About
-                </a>
-
-                <a
-                    href="#skills"
-                    class="nav-link">
-                    Skills
-                </a>
-
-                <a
-                    href="#projects"
-                    class="nav-link">
-                    Projects
-                </a>
-
-                <a
-                    href="#experience"
-                    class="nav-link">
-                    Experience
-                </a>
-
-                <a
-                    href="#certifications"
-                    class="nav-link">
-                    Certifications
-                </a>
-
-                <a
-                    href="#contact"
-                    class="nav-link">
-                    Contact
-                </a>
-
-            </nav>
-
-
-            <!-- NAV ACTIONS -->
+            </div>
 
             <div class="nav-actions">
 
                 <button
                     class="theme-toggle"
-                    id="theme-toggle"
-                    aria-label="Toggle theme">
-
+                    id="themeToggle"
+                    aria-label="Toggle theme"
+                >
                     <i class="fa-solid fa-moon"></i>
-
                 </button>
-
-
-                <a
-                    href="Santhosh_C_Data_Science_Resume.pdf"
-                    download
-                    class="nav-resume">
-
-                    Resume
-
-                    <i class="fa-solid fa-download"></i>
-
-                </a>
-
 
                 <button
                     class="menu-toggle"
-                    id="menu-toggle"
-                    aria-label="Open menu">
-
-                    <span></span>
-                    <span></span>
-                    <span></span>
-
+                    id="menuToggle"
+                    aria-label="Open menu"
+                >
+                    <i class="fa-solid fa-bars"></i>
                 </button>
 
             </div>
 
-        </div>
+        </nav>
 
     </header>
 
 
-    <!-- =====================================================
-         MAIN
-    ====================================================== -->
+    <!-- ================= HERO ================= -->
 
     <main>
 
-
-        <!-- =================================================
-             HERO
-        ================================================== -->
-
-        <section
-            class="hero"
-            id="home">
+        <section class="hero section" id="home">
 
             <div class="hero-grid"></div>
 
             <div class="hero-orbit orbit-one"></div>
             <div class="hero-orbit orbit-two"></div>
-            <div class="hero-orbit orbit-three"></div>
-
 
             <div class="container hero-container">
 
+                <div class="hero-content" data-aos="fade-right">
 
-                <!-- HERO CONTENT -->
-
-                <div
-                    class="hero-content"
-                    data-aos="fade-up">
-
-                    <div class="availability">
-
+                    <div class="status-badge">
                         <span class="status-dot"></span>
-
-                        <span>
-                            Open to Data Science Opportunities
-                        </span>
-
+                        Available for Opportunities
                     </div>
 
-
-                    <p class="hero-small-title">
-                        HELLO, I'M
+                    <p class="hero-small">
+                        DATA SCIENCE PORTFOLIO
                     </p>
 
-
-                    <h1 class="hero-title">
-
-                        Santhosh
-                        <span>C.</span>
-
+                    <h1>
+                        Hi, I'm
+                        <span class="gradient-text">
+                            Santhosh C
+                        </span>
                     </h1>
 
-
-                    <div class="hero-role">
-
-                        <span>
-                            Data Scientist
-                        </span>
-
-                        <span class="separator">
-                            /
-                        </span>
-
-                        <span id="typing-text">
-                            Python
-                        </span>
-
-                    </div>
-
+                    <h2>
+                        <span id="typingText"></span>
+                        <span class="cursor">|</span>
+                    </h2>
 
                     <p class="hero-description">
-
-                        I transform data into meaningful insights,
-                        predictive solutions and practical
-                        machine-learning applications.
-
+                        I transform raw data into meaningful insights,
+                        predictive models, interactive dashboards and
+                        practical data-driven solutions.
                     </p>
-
-
-                    <!-- HERO BUTTONS -->
 
                     <div class="hero-buttons">
 
                         <a
                             href="#projects"
-                            class="btn btn-primary">
-
-                            Explore Projects
-
+                            class="btn btn-primary magnetic"
+                        >
+                            <span>Explore Projects</span>
                             <i class="fa-solid fa-arrow-right"></i>
-
                         </a>
-
 
                         <a
                             href="Santhosh_C_Data_Science_Resume.pdf"
-                            download
-                            class="btn btn-secondary">
-
-                            Download Resume
-
-                            <i class="fa-solid fa-download"></i>
-
+                            class="btn btn-outline magnetic"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>View Resume</span>
                         </a>
 
                     </div>
 
-
-                    <!-- SOCIAL LINKS -->
-
-                    <div class="hero-socials">
+                    <div class="social-links">
 
                         <a
                             href="https://github.com/Santhosh-271121"
                             target="_blank"
                             rel="noopener noreferrer"
-                            aria-label="GitHub">
-
+                            aria-label="GitHub"
+                        >
                             <i class="fa-brands fa-github"></i>
-
                         </a>
-
 
                         <a
                             href="https://www.linkedin.com/in/santhosh-c-19a766335"
                             target="_blank"
                             rel="noopener noreferrer"
-                            aria-label="LinkedIn">
-
+                            aria-label="LinkedIn"
+                        >
                             <i class="fa-brands fa-linkedin-in"></i>
-
-                        </a>
-
-
-                        <a
-                            href="mailto:santhoshc@example.com"
-                            aria-label="Email">
-
-                            <i class="fa-solid fa-envelope"></i>
-
                         </a>
 
                     </div>
@@ -359,161 +204,77 @@
                 </div>
 
 
-                <!-- HERO CODE CARD -->
+                <!-- CODE CARD -->
 
                 <div
                     class="hero-visual"
-                    data-aos="fade-left">
+                    data-aos="fade-left"
+                >
 
-                    <div class="code-card">
+                    <div class="code-window">
 
-                        <div class="code-header">
+                        <div class="window-header">
 
-                            <div class="code-dots">
-
+                            <div class="window-dots">
                                 <span></span>
                                 <span></span>
                                 <span></span>
-
                             </div>
 
-                            <span>
-                                data_science.py
-                            </span>
+                            <span>data_science.py</span>
 
                         </div>
-
 
                         <div class="code-body">
 
-<pre><code><span class="code-keyword">import</span> pandas <span class="code-keyword">as</span> pd
-<span class="code-keyword">import</span> numpy <span class="code-keyword">as</span> np
-<span class="code-keyword">from</span> sklearn.model_selection \
-<span class="code-keyword">import</span> train_test_split
+<pre><code><span class="code-purple">class</span> <span class="code-blue">DataScientist</span>:
 
-data = pd.read_csv(
-    <span class="code-string">"dataset.csv"</span>
-)
+    <span class="code-purple">def</span> <span class="code-yellow">__init__</span>(self):
+        self.name = <span class="code-green">"Santhosh C"</span>
+        self.focus = [
+            <span class="code-green">"Data Science"</span>,
+            <span class="code-green">"Machine Learning"</span>,
+            <span class="code-green">"Analytics"</span>
+        ]
 
-X = data.drop(
-    <span class="code-string">"target"</span>,
-    axis=<span class="code-number">1</span>
-)
+    <span class="code-purple">def</span> <span class="code-yellow">solve</span>(self, data):
+        clean = clean_data(data)
+        insights = analyze(clean)
+        model = train_model(clean)
 
-y = data[<span class="code-string">"target"</span>]
-
-X_train, X_test, \
-y_train, y_test = \
-train_test_split(
-    X, y,
-    test_size=<span class="code-number">0.2</span>
-)
-
-model.fit(X_train, y_train)
-
-prediction = model.predict(X_test)
-
-<span class="code-comment">
-# Turning data into decisions
-</span></code></pre>
+        <span class="code-purple">return</span> {
+            <span class="code-green">"insights"</span>: insights,
+            <span class="code-green">"model"</span>: model
+        }</code></pre>
 
                         </div>
 
                     </div>
 
 
-                    <!-- FLOATING SKILL CARDS -->
-
-                    <div class="floating-card floating-python">
-
+                    <div class="floating-card python-card">
                         <i class="fa-brands fa-python"></i>
-
-                        <span>Python</span>
-
+                        <div>
+                            <strong>Python</strong>
+                            <small>Data Science</small>
+                        </div>
                     </div>
 
-
-                    <div class="floating-card floating-sql">
-
+                    <div class="floating-card sql-card">
                         <i class="fa-solid fa-database"></i>
-
-                        <span>SQL</span>
-
+                        <div>
+                            <strong>SQL</strong>
+                            <small>Analytics</small>
+                        </div>
                     </div>
 
-
-                    <div class="floating-card floating-ml">
-
+                    <div class="floating-card ml-card">
                         <i class="fa-solid fa-brain"></i>
-
-                        <span>ML</span>
-
+                        <div>
+                            <strong>ML</strong>
+                            <small>Prediction</small>
+                        </div>
                     </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- HERO STATS -->
-
-            <div class="container hero-stats">
-
-                <div
-                    class="stat"
-                    data-aos="fade-up">
-
-                    <strong
-                        class="counter"
-                        data-target="8.46">
-                        0
-                    </strong>
-
-                    <span>CGPA</span>
-
-                </div>
-
-
-                <div
-                    class="stat"
-                    data-aos="fade-up"
-                    data-aos-delay="100">
-
-                    <strong
-                        class="counter"
-                        data-target="2027">
-                        0
-                    </strong>
-
-                    <span>Graduation</span>
-
-                </div>
-
-
-                <div
-                    class="stat"
-                    data-aos="fade-up"
-                    data-aos-delay="200">
-
-                    <strong>
-                        IBM
-                    </strong>
-
-                    <span>Certified</span>
-
-                </div>
-
-
-                <div
-                    class="stat"
-                    data-aos="fade-up"
-                    data-aos-delay="300">
-
-                    <strong>
-                        03+
-                    </strong>
-
-                    <span>Projects</span>
 
                 </div>
 
@@ -522,184 +283,175 @@ prediction = model.predict(X_test)
         </section>
 
 
-        <!-- =================================================
-             ABOUT
-        ================================================== -->
+        <!-- ================= STATS ================= -->
 
-        <section
-            class="section about"
-            id="about">
+        <section class="stats-section">
+
+            <div class="container stats-grid">
+
+                <div class="stat-card" data-aos="fade-up">
+                    <strong class="counter" data-target="8.46">
+                        0
+                    </strong>
+                    <span>CGPA / 10</span>
+                </div>
+
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                    <strong class="counter" data-target="2027">
+                        0
+                    </strong>
+                    <span>Graduation</span>
+                </div>
+
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                    <strong>IBM</strong>
+                    <span>Certified Data Analyst</span>
+                </div>
+
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+                    <strong>2+</strong>
+                    <span>Featured Projects</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section" id="about">
 
             <div class="container">
 
+                <div class="section-heading" data-aos="fade-up">
+                    <span class="section-number">01</span>
+                    <span class="section-label">ABOUT ME</span>
 
-                <div
-                    class="section-heading"
-                    data-aos="fade-up">
+                    <h2>
+                        Turning data into
+                        <span>decisions.</span>
+                    </h2>
 
-                    <span class="section-number">
-                        01
-                    </span>
-
-                    <div>
-
-                        <p class="section-label">
-                            ABOUT ME
-                        </p>
-
-                        <h2>
-                            Turning curiosity into
-                            <span>solutions.</span>
-                        </h2>
-
-                    </div>
-
+                    <p>
+                        A data-focused developer who enjoys solving
+                        real-world problems using analytics, machine
+                        learning and visualization.
+                    </p>
                 </div>
 
 
                 <div class="about-grid">
 
-
-                    <div
-                        class="about-content"
-                        data-aos="fade-right">
-
-                        <p class="large-text">
-
-                            I am a Computer Science and Systems
-                            Engineering undergraduate at
-                            <strong>REVA University, Bengaluru</strong>,
-                            focused on building a career in
-                            Data Science.
-
-                        </p>
-
+                    <div class="about-content" data-aos="fade-right">
 
                         <p>
-
-                            My interests span data analysis,
-                            machine learning, business intelligence,
-                            SQL, Python and computer vision.
-
-                            I enjoy taking raw datasets,
-                            understanding the underlying patterns
-                            and turning them into useful insights
-                            and practical solutions.
-
+                            I am a Computer Science and Systems Engineering
+                            undergraduate at REVA University, Bengaluru,
+                            with a strong interest in Data Science,
+                            Machine Learning, Business Intelligence and
+                            Computer Vision.
                         </p>
-
 
                         <p>
-
-                            I continuously work on projects that
-                            combine analytical thinking with
-                            technical implementation.
-
+                            My approach combines programming, statistics,
+                            analytical thinking and visualization to
+                            convert complex datasets into useful insights.
                         </p>
 
+                        <div class="about-highlights">
 
-                        <div class="about-actions">
+                            <div>
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span>Data Analytics</span>
+                            </div>
 
-                            <a
-                                href="#contact"
-                                class="text-link">
+                            <div>
+                                <i class="fa-solid fa-brain"></i>
+                                <span>Machine Learning</span>
+                            </div>
 
-                                Let's Connect
+                            <div>
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <span>Business Intelligence</span>
+                            </div>
 
-                                <i class="fa-solid fa-arrow-right"></i>
-
-                            </a>
+                            <div>
+                                <i class="fa-solid fa-eye"></i>
+                                <span>Computer Vision</span>
+                            </div>
 
                         </div>
 
                     </div>
 
 
-                    <!-- TERMINAL -->
-
-                    <div
-                        class="terminal"
-                        data-aos="fade-left">
+                    <div class="terminal" data-aos="fade-left">
 
                         <div class="terminal-header">
 
-                            <div class="terminal-buttons">
-
+                            <div class="terminal-dots">
                                 <span></span>
                                 <span></span>
                                 <span></span>
-
                             </div>
 
-                            <span>
-                                santhosh@datascience:~
-                            </span>
+                            <span>santhosh@datascience:~</span>
 
                         </div>
-
 
                         <div class="terminal-body">
 
                             <p>
                                 <span class="terminal-green">
-                                    santhosh
-                                </span>
-                                @portfolio:~$
-                                whoami
+                                    santhosh@datascience
+                                </span>:~$
+                                python profile.py
                             </p>
 
                             <p class="terminal-output">
-                                Data Science Undergraduate
+                                Loading profile...
                             </p>
-
 
                             <p>
-                                <span class="terminal-green">
-                                    santhosh
-                                </span>
-                                @portfolio:~$
-                                skills
+                                Name:
+                                <strong>Santhosh C</strong>
                             </p>
-
-                            <p class="terminal-output">
-                                Python | SQL | ML | Power BI
-                            </p>
-
 
                             <p>
-                                <span class="terminal-green">
-                                    santhosh
-                                </span>
-                                @portfolio:~$
-                                focus
+                                Domain:
+                                <strong>Data Science</strong>
                             </p>
-
-                            <p class="terminal-output">
-                                Data Science & Analytics
-                            </p>
-
 
                             <p>
-                                <span class="terminal-green">
-                                    santhosh
-                                </span>
-                                @portfolio:~$
-                                status
+                                Python:
+                                <strong>✓</strong>
                             </p>
-
-                            <p class="terminal-output">
-                                Learning. Building. Improving.
-                            </p>
-
 
                             <p>
-                                <span class="terminal-green">
-                                    santhosh
-                                </span>
-                                @portfolio:~$
-                                <span class="cursor">
-                                    █
-                                </span>
+                                SQL:
+                                <strong>✓</strong>
+                            </p>
+
+                            <p>
+                                Machine Learning:
+                                <strong>✓</strong>
+                            </p>
+
+                            <p>
+                                Power BI:
+                                <strong>✓</strong>
+                            </p>
+
+                            <p>
+                                Status:
+                                <strong class="terminal-green">
+                                    Building & Learning
+                                </strong>
+                            </p>
+
+                            <p class="terminal-cursor">
+                                █
                             </p>
 
                         </div>
@@ -713,74 +465,44 @@ prediction = model.predict(X_test)
         </section>
 
 
-        <!-- =================================================
-             SKILLS
-        ================================================== -->
+        <!-- ================= SKILLS ================= -->
 
-        <section
-            class="section skills-section"
-            id="skills">
+        <section class="section section-alt" id="skills">
 
             <div class="container">
 
+                <div class="section-heading" data-aos="fade-up">
 
-                <div
-                    class="section-heading"
-                    data-aos="fade-up">
+                    <span class="section-number">02</span>
+                    <span class="section-label">TECHNICAL SKILLS</span>
 
-                    <span class="section-number">
-                        02
-                    </span>
-
-                    <div>
-
-                        <p class="section-label">
-                            TECHNICAL SKILLS
-                        </p>
-
-                        <h2>
-                            Tools I use to
-                            <span>build.</span>
-                        </h2>
-
-                    </div>
+                    <h2>
+                        My technical
+                        <span>toolkit.</span>
+                    </h2>
 
                 </div>
 
 
-                <!-- SKILL FILTER -->
+                <div class="skill-filters" data-aos="fade-up">
 
-                <div
-                    class="skill-filters"
-                    data-aos="fade-up">
-
-                    <button
-                        class="skill-filter active"
-                        data-filter="all">
+                    <button class="skill-filter active" data-filter="all">
                         All
                     </button>
 
-                    <button
-                        class="skill-filter"
-                        data-filter="data">
+                    <button class="skill-filter" data-filter="data">
                         Data
                     </button>
 
-                    <button
-                        class="skill-filter"
-                        data-filter="ml">
+                    <button class="skill-filter" data-filter="ml">
                         Machine Learning
                     </button>
 
-                    <button
-                        class="skill-filter"
-                        data-filter="bi">
+                    <button class="skill-filter" data-filter="bi">
                         BI
                     </button>
 
-                    <button
-                        class="skill-filter"
-                        data-filter="tools">
+                    <button class="skill-filter" data-filter="tools">
                         Tools
                     </button>
 
@@ -789,13 +511,7 @@ prediction = model.predict(X_test)
 
                 <div class="skills-grid">
 
-
-                    <!-- PYTHON -->
-
-                    <div
-                        class="skill-card"
-                        data-category="data"
-                        data-aos="fade-up">
+                    <article class="skill-card" data-category="data" data-aos="fade-up">
 
                         <div class="skill-icon">
                             <i class="fa-brands fa-python"></i>
@@ -808,23 +524,16 @@ prediction = model.predict(X_test)
                             machine-learning workflows.
                         </p>
 
-                        <div class="skill-progress">
-
-                            <span
-                                data-progress="90">
-                            </span>
-
+                        <div class="skill-bar">
+                            <span style="--skill-width: 88%"></span>
                         </div>
 
-                    </div>
+                        <small>Data Science</small>
+
+                    </article>
 
 
-                    <!-- SQL -->
-
-                    <div
-                        class="skill-card"
-                        data-category="data"
-                        data-aos="fade-up">
+                    <article class="skill-card" data-category="data" data-aos="fade-up">
 
                         <div class="skill-icon">
                             <i class="fa-solid fa-database"></i>
@@ -834,26 +543,19 @@ prediction = model.predict(X_test)
 
                         <p>
                             Queries, joins, aggregation,
-                            filtering and relational analysis.
+                            relational data and analysis.
                         </p>
 
-                        <div class="skill-progress">
-
-                            <span
-                                data-progress="85">
-                            </span>
-
+                        <div class="skill-bar">
+                            <span style="--skill-width: 84%"></span>
                         </div>
 
-                    </div>
+                        <small>Database Analytics</small>
+
+                    </article>
 
 
-                    <!-- PANDAS -->
-
-                    <div
-                        class="skill-card"
-                        data-category="data"
-                        data-aos="fade-up">
+                    <article class="skill-card" data-category="data" data-aos="fade-up">
 
                         <div class="skill-icon">
                             <i class="fa-solid fa-table"></i>
@@ -862,27 +564,20 @@ prediction = model.predict(X_test)
                         <h3>Pandas & NumPy</h3>
 
                         <p>
-                            Data cleaning, transformation,
-                            manipulation and numerical analysis.
+                            Data manipulation, cleaning,
+                            transformation and numerical analysis.
                         </p>
 
-                        <div class="skill-progress">
-
-                            <span
-                                data-progress="88">
-                            </span>
-
+                        <div class="skill-bar">
+                            <span style="--skill-width: 86%"></span>
                         </div>
 
-                    </div>
+                        <small>Data Processing</small>
+
+                    </article>
 
 
-                    <!-- MACHINE LEARNING -->
-
-                    <div
-                        class="skill-card"
-                        data-category="ml"
-                        data-aos="fade-up">
+                    <article class="skill-card" data-category="ml" data-aos="fade-up">
 
                         <div class="skill-icon">
                             <i class="fa-solid fa-brain"></i>
@@ -892,26 +587,19 @@ prediction = model.predict(X_test)
 
                         <p>
                             Regression, classification,
-                            feature engineering and evaluation.
+                            preprocessing and evaluation.
                         </p>
 
-                        <div class="skill-progress">
-
-                            <span
-                                data-progress="78">
-                            </span>
-
+                        <div class="skill-bar">
+                            <span style="--skill-width: 78%"></span>
                         </div>
 
-                    </div>
+                        <small>Scikit-learn</small>
+
+                    </article>
 
 
-                    <!-- POWER BI -->
-
-                    <div
-                        class="skill-card"
-                        data-category="bi"
-                        data-aos="fade-up">
+                    <article class="skill-card" data-category="bi" data-aos="fade-up">
 
                         <div class="skill-icon">
                             <i class="fa-solid fa-chart-column"></i>
@@ -921,26 +609,19 @@ prediction = model.predict(X_test)
 
                         <p>
                             Interactive dashboards, KPIs,
-                            business insights and reporting.
+                            reports and business insights.
                         </p>
 
-                        <div class="skill-progress">
-
-                            <span
-                                data-progress="85">
-                            </span>
-
+                        <div class="skill-bar">
+                            <span style="--skill-width: 84%"></span>
                         </div>
 
-                    </div>
+                        <small>Business Intelligence</small>
+
+                    </article>
 
 
-                    <!-- EXCEL -->
-
-                    <div
-                        class="skill-card"
-                        data-category="bi"
-                        data-aos="fade-up">
+                    <article class="skill-card" data-category="bi" data-aos="fade-up">
 
                         <div class="skill-icon">
                             <i class="fa-solid fa-file-excel"></i>
@@ -949,59 +630,45 @@ prediction = model.predict(X_test)
                         <h3>Excel</h3>
 
                         <p>
-                            Data analysis, pivot tables,
-                            dashboards and reporting.
+                            Data cleaning, pivot tables,
+                            analysis and reporting.
                         </p>
 
-                        <div class="skill-progress">
-
-                            <span
-                                data-progress="88">
-                            </span>
-
+                        <div class="skill-bar">
+                            <span style="--skill-width: 86%"></span>
                         </div>
 
-                    </div>
+                        <small>Analytics</small>
+
+                    </article>
 
 
-                    <!-- COMPUTER VISION -->
-
-                    <div
-                        class="skill-card"
-                        data-category="ml"
-                        data-aos="fade-up">
+                    <article class="skill-card" data-category="ml" data-aos="fade-up">
 
                         <div class="skill-icon">
-                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-camera"></i>
                         </div>
 
                         <h3>Computer Vision</h3>
 
                         <p>
-                            OpenCV, YOLOv8 and real-time
-                            object detection.
+                            Object detection and real-time
+                            image processing.
                         </p>
 
-                        <div class="skill-progress">
-
-                            <span
-                                data-progress="75">
-                            </span>
-
+                        <div class="skill-bar">
+                            <span style="--skill-width: 74%"></span>
                         </div>
 
-                    </div>
+                        <small>YOLOv8 / OpenCV</small>
+
+                    </article>
 
 
-                    <!-- GIT -->
-
-                    <div
-                        class="skill-card"
-                        data-category="tools"
-                        data-aos="fade-up">
+                    <article class="skill-card" data-category="tools" data-aos="fade-up">
 
                         <div class="skill-icon">
-                            <i class="fa-brands fa-git-alt"></i>
+                            <i class="fa-brands fa-github"></i>
                         </div>
 
                         <h3>Git & GitHub</h3>
@@ -1011,15 +678,13 @@ prediction = model.predict(X_test)
                             and project deployment.
                         </p>
 
-                        <div class="skill-progress">
-
-                            <span
-                                data-progress="82">
-                            </span>
-
+                        <div class="skill-bar">
+                            <span style="--skill-width: 80%"></span>
                         </div>
 
-                    </div>
+                        <small>Development</small>
+
+                    </article>
 
                 </div>
 
@@ -1028,68 +693,45 @@ prediction = model.predict(X_test)
         </section>
 
 
-        <!-- =================================================
-             PROJECTS
-        ================================================== -->
+        <!-- ================= PROJECTS ================= -->
 
-        <section
-            class="section projects-section"
-            id="projects">
+        <section class="section" id="projects">
 
             <div class="container">
 
+                <div class="section-heading" data-aos="fade-up">
 
-                <div
-                    class="section-heading"
-                    data-aos="fade-up">
+                    <span class="section-number">03</span>
+                    <span class="section-label">FEATURED PROJECTS</span>
 
-                    <span class="section-number">
-                        03
-                    </span>
+                    <h2>
+                        Selected
+                        <span>work.</span>
+                    </h2>
 
-                    <div>
-
-                        <p class="section-label">
-                            FEATURED WORK
-                        </p>
-
-                        <h2>
-                            Projects that
-                            <span>matter.</span>
-                        </h2>
-
-                    </div>
+                    <p>
+                        Practical projects combining data,
+                        analytics, machine learning and visualization.
+                    </p>
 
                 </div>
 
 
-                <!-- PROJECT FILTERS -->
+                <div class="project-filters" data-aos="fade-up">
 
-                <div
-                    class="project-filters"
-                    data-aos="fade-up">
-
-                    <button
-                        class="project-filter active"
-                        data-filter="all">
+                    <button class="project-filter active" data-filter="all">
                         All
                     </button>
 
-                    <button
-                        class="project-filter"
-                        data-filter="data">
+                    <button class="project-filter" data-filter="data">
                         Data
                     </button>
 
-                    <button
-                        class="project-filter"
-                        data-filter="ml">
-                        Machine Learning
+                    <button class="project-filter" data-filter="ai">
+                        AI / ML
                     </button>
 
-                    <button
-                        class="project-filter"
-                        data-filter="bi">
+                    <button class="project-filter" data-filter="bi">
                         BI
                     </button>
 
@@ -1102,91 +744,51 @@ prediction = model.predict(X_test)
                     <!-- PROJECT 1 -->
 
                     <article
-                        class="project-card featured-project"
-                        data-category="bi data"
-                        data-aos="fade-up">
+                        class="project-card"
+                        data-category="data bi"
+                        data-aos="fade-up"
+                    >
 
-                        <div class="project-visual dashboard-visual">
+                        <div class="project-visual sales-visual">
 
-                            <div class="dashboard-header">
-
-                                <span>
-                                    SALES ANALYTICS
-                                </span>
-
-                                <span>
-                                    POWER BI
-                                </span>
-
+                            <div class="chart-bars">
+                                <span style="height: 45%"></span>
+                                <span style="height: 65%"></span>
+                                <span style="height: 52%"></span>
+                                <span style="height: 80%"></span>
+                                <span style="height: 92%"></span>
+                                <span style="height: 70%"></span>
                             </div>
 
-
-                            <div class="dashboard-content">
-
-                                <div class="dashboard-number">
-                                    $92M+
-                                </div>
-
-                                <div class="dashboard-label">
-                                    Revenue
-                                </div>
-
-
-                                <div class="dashboard-bars">
-
-                                    <span style="height:45%"></span>
-                                    <span style="height:70%"></span>
-                                    <span style="height:55%"></span>
-                                    <span style="height:85%"></span>
-                                    <span style="height:65%"></span>
-                                    <span style="height:95%"></span>
-
-                                </div>
-
+                            <div class="visual-label">
+                                $92M+
+                                <small>Revenue</small>
                             </div>
 
                         </div>
 
-
                         <div class="project-content">
 
                             <div class="project-meta">
-
-                                <span>
-                                    01
-                                </span>
-
-                                <span>
-                                    BUSINESS INTELLIGENCE
-                                </span>
-
+                                <span>01</span>
+                                <span>Power BI</span>
                             </div>
-
 
                             <h3>
                                 Amazon Sales Analysis
-                                & BI Dashboard
                             </h3>
 
-
                             <p>
-
-                                Interactive Power BI dashboard
-                                analyzing revenue, orders,
-                                products, fulfillment,
-                                categories and geographic
-                                performance.
-
+                                Interactive business intelligence
+                                dashboard analyzing revenue,
+                                orders, products, fulfillment and
+                                geographic performance.
                             </p>
 
-
                             <div class="project-tags">
-
                                 <span>Power BI</span>
                                 <span>Excel</span>
-                                <span>Data Analysis</span>
-                                <span>KPI</span>
-
+                                <span>Analytics</span>
                             </div>
 
                         </div>
@@ -1198,79 +800,53 @@ prediction = model.predict(X_test)
 
                     <article
                         class="project-card"
-                        data-category="ml"
+                        data-category="ai"
                         data-aos="fade-up"
-                        data-aos-delay="100">
+                        data-aos-delay="100"
+                    >
 
                         <div class="project-visual ai-visual">
 
-                            <div class="scanner">
+                            <div class="scanner"></div>
 
-                                <div class="scan-line"></div>
-
-                                <div class="person-box">
-                                    <span>PERSON</span>
-                                </div>
-
-                                <div class="vehicle-box">
-                                    <span>VEHICLE</span>
-                                </div>
-
+                            <div class="detection-box box-one">
+                                <span>PERSON</span>
+                                <b>94%</b>
                             </div>
 
+                            <div class="detection-box box-two">
+                                <span>CAR</span>
+                                <b>91%</b>
+                            </div>
 
-                            <div class="risk-indicator">
-
-                                <span></span>
-
-                                <strong>
-                                    RISK ANALYSIS
-                                </strong>
-
+                            <div class="ai-center">
+                                <i class="fa-solid fa-eye"></i>
                             </div>
 
                         </div>
 
-
                         <div class="project-content">
 
                             <div class="project-meta">
-
-                                <span>
-                                    02
-                                </span>
-
-                                <span>
-                                    COMPUTER VISION
-                                </span>
-
+                                <span>02</span>
+                                <span>Computer Vision</span>
                             </div>
 
-
                             <h3>
-                                AI Pedestrian Safety
-                                System
+                                AI Pedestrian Safety System
                             </h3>
 
-
                             <p>
-
-                                Real-time computer vision
-                                system using YOLOv8,
-                                distance estimation and
-                                risk classification for
-                                pedestrian safety.
-
+                                Real-time YOLOv8-based safety
+                                system combining object detection,
+                                distance estimation and risk alerts.
                             </p>
 
-
                             <div class="project-tags">
-
                                 <span>Python</span>
                                 <span>YOLOv8</span>
                                 <span>OpenCV</span>
                                 <span>Flask</span>
-
                             </div>
 
                         </div>
@@ -1282,78 +858,48 @@ prediction = model.predict(X_test)
 
                     <article
                         class="project-card"
-                        data-category="data"
+                        data-category="data bi"
                         data-aos="fade-up"
-                        data-aos-delay="200">
+                        data-aos-delay="200"
+                    >
 
                         <div class="project-visual analytics-visual">
 
-                            <div class="analytics-grid">
-
-                                <div class="analytics-card">
-                                    <span>DATA</span>
-                                    <strong>100K+</strong>
-                                </div>
-
-                                <div class="analytics-card">
-                                    <span>INSIGHTS</span>
-                                    <strong>25+</strong>
-                                </div>
-
-                                <div class="analytics-chart">
-
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-
-                                </div>
-
+                            <div class="metric">
+                                <span>Orders</span>
+                                <strong>100K+</strong>
                             </div>
 
-                        </div>
+                            <div class="metric">
+                                <span>Units</span>
+                                <strong>300K+</strong>
+                            </div>
 
+                            <div class="mini-line"></div>
+
+                        </div>
 
                         <div class="project-content">
 
                             <div class="project-meta">
-
-                                <span>
-                                    03
-                                </span>
-
-                                <span>
-                                    DATA ANALYTICS
-                                </span>
-
+                                <span>03</span>
+                                <span>Analytics</span>
                             </div>
-
 
                             <h3>
                                 Deloitte Data Analytics
-                                Job Simulation
                             </h3>
 
-
                             <p>
-
-                                Practical data analytics
-                                experience involving
-                                business analysis,
-                                visualization and
-                                insight generation.
-
+                                Practical data analytics simulation
+                                focused on data interpretation,
+                                visualization and business insights.
                             </p>
 
-
                             <div class="project-tags">
-
                                 <span>Data Analysis</span>
                                 <span>Visualization</span>
                                 <span>Business Insights</span>
-
                             </div>
 
                         </div>
@@ -1367,89 +913,61 @@ prediction = model.predict(X_test)
         </section>
 
 
-        <!-- =================================================
-             EXPERIENCE
-        ================================================== -->
+        <!-- ================= EXPERIENCE ================= -->
 
-        <section
-            class="section experience-section"
-            id="experience">
+        <section class="section section-alt" id="experience">
 
             <div class="container">
 
+                <div class="section-heading" data-aos="fade-up">
 
-                <div
-                    class="section-heading"
-                    data-aos="fade-up">
+                    <span class="section-number">04</span>
+                    <span class="section-label">EXPERIENCE</span>
 
-                    <span class="section-number">
-                        04
-                    </span>
-
-                    <div>
-
-                        <p class="section-label">
-                            EXPERIENCE
-                        </p>
-
-                        <h2>
-                            Where I am
-                            <span>growing.</span>
-                        </h2>
-
-                    </div>
+                    <h2>
+                        Professional
+                        <span>journey.</span>
+                    </h2>
 
                 </div>
 
 
                 <div class="timeline">
 
+                    <div class="timeline-item" data-aos="fade-up">
 
-                    <div
-                        class="timeline-item"
-                        data-aos="fade-up">
+                        <div class="timeline-dot"></div>
 
-                        <div class="timeline-marker">
-                            01
+                        <div class="timeline-date">
+                            Current
                         </div>
-
 
                         <div class="timeline-content">
 
-                            <div class="timeline-date">
-                                CURRENT
-                            </div>
-
+                            <span class="timeline-type">
+                                DATA SCIENCE
+                            </span>
 
                             <h3>
                                 Data Science
                             </h3>
 
-
                             <h4>
                                 Pursuit Private Limited
                             </h4>
 
-
                             <p>
-
-                                Currently gaining practical
-                                experience in Data Science,
-                                applying Python, SQL,
-                                data analysis and machine
-                                learning concepts to
-                                practical problems.
-
+                                Working in the Data Science domain
+                                with focus on analytical problem
+                                solving, Python, SQL, machine
+                                learning and data-driven solutions.
                             </p>
 
-
                             <div class="timeline-tags">
-
                                 <span>Python</span>
                                 <span>SQL</span>
                                 <span>Data Science</span>
                                 <span>Machine Learning</span>
-
                             </div>
 
                         </div>
@@ -1457,41 +975,33 @@ prediction = model.predict(X_test)
                     </div>
 
 
-                    <div
-                        class="timeline-item"
-                        data-aos="fade-up">
+                    <div class="timeline-item" data-aos="fade-up">
 
-                        <div class="timeline-marker">
-                            02
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-date">
+                            Education
                         </div>
-
 
                         <div class="timeline-content">
 
-                            <div class="timeline-date">
-                                2027
-                            </div>
-
+                            <span class="timeline-type">
+                                B.TECH
+                            </span>
 
                             <h3>
-                                B.Tech — Computer Science
-                                & Systems Engineering
+                                Computer Science and Systems Engineering
                             </h3>
-
 
                             <h4>
                                 REVA University
                             </h4>
 
-
                             <p>
-
-                                Building a strong foundation
-                                in programming, databases,
-                                machine learning,
-                                computer vision,
-                                statistics and data analysis.
-
+                                Building a strong foundation in
+                                computer science, data structures,
+                                databases, machine learning,
+                                statistics and computer vision.
                             </p>
 
                         </div>
@@ -1505,143 +1015,80 @@ prediction = model.predict(X_test)
         </section>
 
 
-        <!-- =================================================
-             CERTIFICATIONS
-        ================================================== -->
+        <!-- ================= CERTIFICATIONS ================= -->
 
-        <section
-            class="section certifications-section"
-            id="certifications">
+        <section class="section" id="certifications">
 
             <div class="container">
 
+                <div class="section-heading" data-aos="fade-up">
 
-                <div
-                    class="section-heading"
-                    data-aos="fade-up">
+                    <span class="section-number">05</span>
+                    <span class="section-label">CERTIFICATIONS</span>
 
-                    <span class="section-number">
-                        05
-                    </span>
-
-                    <div>
-
-                        <p class="section-label">
-                            CERTIFICATIONS
-                        </p>
-
-                        <h2>
-                            Learning backed by
-                            <span>practice.</span>
-                        </h2>
-
-                    </div>
+                    <h2>
+                        Learning through
+                        <span>practice.</span>
+                    </h2>
 
                 </div>
 
 
-                <div class="certifications-grid">
+                <div class="cert-grid">
 
-
-                    <!-- IBM -->
-
-                    <div
-                        class="cert-card"
-                        data-aos="fade-up">
+                    <div class="cert-card" data-aos="fade-up">
 
                         <div class="cert-icon">
-
                             <i class="fa-solid fa-certificate"></i>
-
                         </div>
 
-
-                        <div class="cert-content">
+                        <div>
 
                             <span class="cert-provider">
-                                IBM | COURSERA
+                                IBM / Coursera
                             </span>
 
                             <h3>
-                                IBM Data Analyst
-                                Professional Certificate
+                                IBM Data Analyst Professional Certificate
                             </h3>
 
                             <p>
-
-                                11-course professional
-                                certificate covering Python,
-                                SQL, Excel, statistics,
-                                data analysis, visualization
-                                and dashboards.
-
+                                11-course professional certificate
+                                covering Python, SQL, Excel,
+                                statistics, visualization and
+                                dashboard development.
                             </p>
 
-
-                            <div class="cert-footer">
-
-                                <span>
-                                    Score: 89%
-                                </span>
-
-                                <span>
-                                    Data Analytics
-                                </span>
-
-                            </div>
+                            <strong>
+                                Score: 89%
+                            </strong>
 
                         </div>
 
                     </div>
 
 
-                    <!-- DELOITTE -->
-
-                    <div
-                        class="cert-card"
-                        data-aos="fade-up"
-                        data-aos-delay="100">
+                    <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
 
                         <div class="cert-icon">
-
                             <i class="fa-solid fa-chart-line"></i>
-
                         </div>
 
-
-                        <div class="cert-content">
+                        <div>
 
                             <span class="cert-provider">
-                                DELOITTE | FORAGE
+                                Deloitte / Forage
                             </span>
 
                             <h3>
-                                Data Analytics Job
-                                Simulation
+                                Data Analytics Job Simulation
                             </h3>
 
                             <p>
-
-                                Practical experience focused
-                                on data analysis,
-                                visualization, business
-                                interpretation and
-                                analytical problem solving.
-
+                                Practical simulation focused on
+                                data analysis, visualization,
+                                interpretation and business insights.
                             </p>
-
-
-                            <div class="cert-footer">
-
-                                <span>
-                                    Job Simulation
-                                </span>
-
-                                <span>
-                                    Analytics
-                                </span>
-
-                            </div>
 
                         </div>
 
@@ -1654,307 +1101,60 @@ prediction = model.predict(X_test)
         </section>
 
 
-        <!-- =================================================
-             RESUME CTA
-        ================================================== -->
+        <!-- ================= CONTACT ================= -->
 
-        <section
-            class="resume-section"
-            data-aos="fade-up">
+        <section class="section contact-section" id="contact">
 
             <div class="container">
 
-                <div class="resume-card">
+                <div class="contact-box" data-aos="zoom-in">
 
-                    <div>
+                    <div class="contact-content">
 
-                        <p class="section-label">
-                            WANT TO KNOW MORE?
-                        </p>
+                        <span class="section-label">
+                            LET'S CONNECT
+                        </span>
 
                         <h2>
-                            View my complete
-                            <span>resume.</span>
+                            Have a data problem?
+                            <span>Let's talk.</span>
                         </h2>
 
                         <p>
-                            Explore my education, skills,
-                            projects and professional
-                            experience.
+                            I am open to internships, entry-level
+                            opportunities, freelance data projects
+                            and meaningful collaborations.
                         </p>
 
-                    </div>
-
-
-                    <div class="resume-actions">
-
-                        <!-- CORRECT ROOT PDF PATH -->
-
-                        <a
-                            href="Santhosh_C_Data_Science_Resume.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="btn btn-secondary">
-
-                            View Resume
-
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-                        </a>
-
-
-                        <!-- CORRECT DOWNLOAD PATH -->
-
-                        <a
-                            href="Santhosh_C_Data_Science_Resume.pdf"
-                            download
-                            class="btn btn-primary">
-
-                            Download PDF
-
-                            <i class="fa-solid fa-download"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =================================================
-             CONTACT
-        ================================================== -->
-
-        <section
-            class="section contact-section"
-            id="contact">
-
-            <div class="container">
-
-
-                <div
-                    class="section-heading"
-                    data-aos="fade-up">
-
-                    <span class="section-number">
-                        06
-                    </span>
-
-                    <div>
-
-                        <p class="section-label">
-                            CONTACT
-                        </p>
-
-                        <h2>
-                            Let's build something
-                            <span>meaningful.</span>
-                        </h2>
-
-                    </div>
-
-                </div>
-
-
-                <div class="contact-grid">
-
-
-                    <div
-                        class="contact-content"
-                        data-aos="fade-right">
-
-                        <p class="large-text">
-
-                            Have a project, opportunity,
-                            internship or collaboration
-                            in mind?
-
-                        </p>
-
-
-                        <p>
-
-                            I am always interested in
-                            connecting with people working
-                            on interesting data-driven
-                            problems.
-
-                        </p>
-
-
-                        <div class="contact-details">
-
+                        <div class="contact-buttons">
 
                             <a
-                                href="mailto:santhoshc@example.com"
-                                class="contact-item">
-
-                                <span class="contact-icon">
-
-                                    <i class="fa-solid fa-envelope"></i>
-
-                                </span>
-
-                                <span>
-
-                                    <small>
-                                        EMAIL
-                                    </small>
-
-                                    <strong>
-                                        Get in touch
-                                    </strong>
-
-                                </span>
-
+                                href="mailto:your-email@example.com"
+                                class="btn btn-primary"
+                            >
+                                <i class="fa-solid fa-envelope"></i>
+                                Email Me
                             </a>
-
 
                             <a
                                 href="https://www.linkedin.com/in/santhosh-c-19a766335"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                class="contact-item">
-
-                                <span class="contact-icon">
-
-                                    <i class="fa-brands fa-linkedin-in"></i>
-
-                                </span>
-
-                                <span>
-
-                                    <small>
-                                        LINKEDIN
-                                    </small>
-
-                                    <strong>
-                                        Connect with me
-                                    </strong>
-
-                                </span>
-
-                            </a>
-
-
-                            <a
-                                href="https://github.com/Santhosh-271121"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="contact-item">
-
-                                <span class="contact-icon">
-
-                                    <i class="fa-brands fa-github"></i>
-
-                                </span>
-
-                                <span>
-
-                                    <small>
-                                        GITHUB
-                                    </small>
-
-                                    <strong>
-                                        View my work
-                                    </strong>
-
-                                </span>
-
+                                class="btn btn-outline"
+                            >
+                                <i class="fa-brands fa-linkedin"></i>
+                                LinkedIn
                             </a>
 
                         </div>
 
                     </div>
 
-
-                    <!-- CONTACT FORM -->
-
-                    <form
-                        class="contact-form"
-                        id="contact-form"
-                        data-aos="fade-left">
-
-
-                        <div class="form-group">
-
-                            <label for="name">
-                                Name
-                            </label>
-
-                            <input
-                                type="text"
-                                id="name"
-                                name="name"
-                                placeholder="Your name"
-                                required>
-
-                        </div>
-
-
-                        <div class="form-group">
-
-                            <label for="email">
-                                Email
-                            </label>
-
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                placeholder="your@email.com"
-                                required>
-
-                        </div>
-
-
-                        <div class="form-group">
-
-                            <label for="subject">
-                                Subject
-                            </label>
-
-                            <input
-                                type="text"
-                                id="subject"
-                                name="subject"
-                                placeholder="How can I help?"
-                                required>
-
-                        </div>
-
-
-                        <div class="form-group">
-
-                            <label for="message">
-                                Message
-                            </label>
-
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="6"
-                                placeholder="Tell me about your project or opportunity..."
-                                required></textarea>
-
-                        </div>
-
-
-                        <button
-                            type="submit"
-                            class="btn btn-primary form-submit">
-
-                            Send Message
-
-                            <i class="fa-solid fa-paper-plane"></i>
-
-                        </button>
-
-                    </form>
+                    <div class="contact-decoration">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
 
                 </div>
 
@@ -1965,117 +1165,53 @@ prediction = model.predict(X_test)
     </main>
 
 
-    <!-- =====================================================
-         FOOTER
-    ====================================================== -->
+    <!-- ================= FOOTER ================= -->
 
     <footer class="footer">
 
-        <div class="container footer-container">
+        <div class="container footer-inner">
 
+            <div>
 
-            <div class="footer-brand">
-
-                <a
-                    href="#home"
-                    class="logo">
-
-                    <span class="logo-bracket">
-                        &lt;
-                    </span>
-
-                    <span>
-                        SC
-                    </span>
-
-                    <span class="logo-bracket">
-                        /&gt;
-                    </span>
-
+                <a href="#home" class="logo">
+                    S<span>C</span>
                 </a>
 
-
                 <p>
-                    Data Scientist focused on turning
-                    data into insights, models and
-                    decisions.
+                    Data Science • Analytics • Machine Learning
                 </p>
 
             </div>
 
-
             <div class="footer-links">
 
-                <a href="#home">
-                    Home
+                <a href="https://github.com/Santhosh-271121"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub
                 </a>
 
-                <a href="#about">
-                    About
+                <a href="https://www.linkedin.com/in/santhosh-c-19a766335"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
                 </a>
 
-                <a href="#skills">
-                    Skills
-                </a>
-
-                <a href="#projects">
-                    Projects
-                </a>
-
-                <a href="#contact">
-                    Contact
-                </a>
-
-            </div>
-
-
-            <div class="footer-socials">
-
-                <a
-                    href="https://github.com/Santhosh-271121"
-                    target="_blank"
-                    rel="noopener noreferrer">
-
-                    <i class="fa-brands fa-github"></i>
-
-                </a>
-
-
-                <a
-                    href="https://www.linkedin.com/in/santhosh-c-19a766335"
-                    target="_blank"
-                    rel="noopener noreferrer">
-
-                    <i class="fa-brands fa-linkedin-in"></i>
-
-                </a>
-
-
-                <!-- Resume -->
-
-                <a
-                    href="Santhosh_C_Data_Science_Resume.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer">
-
-                    <i class="fa-solid fa-file-pdf"></i>
-
+                <a href="Santhosh_C_Data_Science_Resume.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Resume
                 </a>
 
             </div>
 
         </div>
 
-
-        <div class="container footer-bottom">
+        <div class="footer-bottom">
 
             <p>
-                © <span id="current-year"></span>
+                © <span id="currentYear"></span>
                 Santhosh C. All rights reserved.
-            </p>
-
-            <p>
-                Built with HTML, CSS & JavaScript.
             </p>
 
         </div>
@@ -2083,36 +1219,22 @@ prediction = model.predict(X_test)
     </footer>
 
 
-    <!-- =====================================================
-         BACK TO TOP
-    ====================================================== -->
+    <!-- ================= BACK TO TOP ================= -->
 
     <button
-        id="back-to-top"
         class="back-to-top"
-        aria-label="Back to top">
-
+        id="backToTop"
+        aria-label="Back to top"
+    >
         <i class="fa-solid fa-arrow-up"></i>
-
     </button>
 
 
-    <!-- =====================================================
-         AOS
-    ====================================================== -->
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-    <script
-        src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-    </script>
-
-
-    <!-- =====================================================
-         MAIN JAVASCRIPT
-    ====================================================== -->
-
+    <!-- Main JS -->
     <script src="script.js"></script>
 
-
 </body>
-
 </html>
