@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://santhosh-271121.github.io/Portfolio/">
+  <a href="https://santhosh-271121.github.io/Portfolio_/">
     <img src="https://img.shields.io/badge/Live%20Portfolio-View%20Website-b8ff3d?style=for-the-badge&labelColor=080b10" alt="Live Portfolio">
   </a>
   <a href="https://github.com/Santhosh-271121">
@@ -17,24 +17,26 @@
 </p>
 
 <p align="center">
-  <a href="https://santhosh-271121.github.io/Portfolio/">
-    <strong>View Website →</strong>
+  <a href="https://santhosh-271121.github.io/Portfolio_/">
+    <strong>VIEW WEBSITE →</strong>
   </a>
 </p>
 
 ---
 
-## About
+## About Me
 
 I am **Santhosh C**, a Computer Science and Systems Engineering undergraduate at **REVA University, Bengaluru**, focused on Data Science, Data Analytics, Machine Learning, Business Intelligence and Computer Vision.
 
 I enjoy transforming raw data into meaningful insights, predictive solutions, interactive dashboards and practical machine-learning applications.
 
+My work combines programming, statistics, data analysis, machine learning and visualization to solve practical problems.
+
 ---
 
 ## Career Focus
 
-My primary areas of interest are:
+My primary areas of interest include:
 
 - Data Science
 - Data Analytics
@@ -45,23 +47,24 @@ My primary areas of interest are:
 - Computer Vision
 - Data Visualization
 
+I am continuously developing my technical and analytical skills through projects, certifications, academic work and practical problem solving.
+
 ---
 
-## Technical Skills
+# Technical Skills
 
-### Programming & Data
+## Programming & Data Analysis
 
-- Python
-- SQL
-- Pandas
-- NumPy
-- Excel
-- Data Cleaning
-- Data Wrangling
-- Exploratory Data Analysis
-- Statistics
+| Category | Technologies |
+|---|---|
+| Programming | Python |
+| Data Manipulation | Pandas, NumPy |
+| Data Cleaning | Pandas, Excel |
+| Data Analysis | Exploratory Data Analysis, Data Wrangling |
+| Statistics | Statistical Analysis |
+| Databases | SQL, SQLite |
 
-### Machine Learning
+## Machine Learning
 
 - Scikit-learn
 - Regression
@@ -72,17 +75,18 @@ My primary areas of interest are:
 - Supervised Learning
 - Predictive Modeling
 
-### Business Intelligence & Visualization
+## Business Intelligence & Visualization
 
 - Power BI
 - Microsoft Excel
 - Matplotlib
 - Seaborn
 - Plotly
-- Dashboard Development
+- Interactive Dashboards
 - KPI Reporting
+- Business Analysis
 
-### Computer Vision
+## Computer Vision
 
 - OpenCV
 - YOLOv8
@@ -91,7 +95,7 @@ My primary areas of interest are:
 - Distance Estimation
 - Risk Classification
 
-### Development Tools
+## Development Tools
 
 - Git
 - GitHub
@@ -104,18 +108,18 @@ My primary areas of interest are:
 
 # Featured Projects
 
-## Amazon Sales Analysis & Business Intelligence Dashboard
+## 01 — Amazon Sales Analysis & Business Intelligence Dashboard
 
-A Power BI dashboard designed to analyze large-scale sales data and provide actionable business insights.
+A Power BI business intelligence project focused on analyzing large-scale sales data and converting it into actionable business insights.
 
-### Highlights
+### Key Highlights
 
-- $92M+ revenue analyzed
-- 100,000+ orders analyzed
-- 300K+ units analyzed
-- Fulfillment KPIs
-- Monthly sales trends
-- Top product analysis
+- Analyzed $92M+ revenue
+- Analyzed 100,000+ orders
+- Analyzed 300K+ units
+- Fulfillment KPI analysis
+- Monthly sales trend analysis
+- Top 10 product analysis
 - State-level analysis
 - Category-level analysis
 - Interactive dashboard filters
