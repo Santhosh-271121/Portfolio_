@@ -16,17 +16,23 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://santhosh-271121.github.io/Portfolio/">
+    <strong>View Live Portfolio →</strong>
+  </a>
+</p>
+
 ---
 
 ## About
 
 Welcome to my personal Data Science portfolio.
 
-I am **Santhosh C**, a Computer Science and Systems Engineering undergraduate at **REVA University, Bengaluru**, with a focus on Data Science, Data Analytics, Machine Learning, Business Intelligence, and Computer Vision.
+I am **Santhosh C**, a Computer Science and Systems Engineering undergraduate at **REVA University, Bengaluru**, focused on Data Science, Data Analytics, Machine Learning, Business Intelligence, and Computer Vision.
 
-I enjoy working with data to discover patterns, generate insights, build predictive models, and develop practical solutions for real-world problems.
+I enjoy transforming raw data into meaningful insights, predictive solutions, interactive dashboards, and practical machine-learning applications.
 
-My work covers the complete data workflow:
+My work follows a complete data workflow:
 
 ```text
 Data Collection
