@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://santhosh-271121.github.io/Portfolio/">
-    <img src="https://img.shields.io/badge/Live%20Portfolio-Visit%20Website-111827?style=for-the-badge" alt="Live Portfolio">
+    <img src="https://img.shields.io/badge/Live%20Portfolio-View%20Website-b8ff3d?style=for-the-badge&labelColor=080b10" alt="Live Portfolio">
   </a>
   <a href="https://github.com/Santhosh-271121">
     <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub">
@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://santhosh-271121.github.io/Portfolio/">
-    <strong>View Live Portfolio →</strong>
+    <strong>View Website →</strong>
   </a>
 </p>
 
@@ -26,27 +26,107 @@
 
 ## About
 
-Welcome to my personal Data Science portfolio.
+I am **Santhosh C**, a Computer Science and Systems Engineering undergraduate at **REVA University, Bengaluru**, focused on Data Science, Data Analytics, Machine Learning, Business Intelligence and Computer Vision.
 
-I am **Santhosh C**, a Computer Science and Systems Engineering undergraduate at **REVA University, Bengaluru**, focused on Data Science, Data Analytics, Machine Learning, Business Intelligence, and Computer Vision.
+I enjoy transforming raw data into meaningful insights, predictive solutions, interactive dashboards and practical machine-learning applications.
 
-I enjoy transforming raw data into meaningful insights, predictive solutions, interactive dashboards, and practical machine-learning applications.
+---
 
-My work follows a complete data workflow:
+## Career Focus
+
+My primary areas of interest are:
+
+- Data Science
+- Data Analytics
+- Machine Learning
+- Business Intelligence
+- SQL & Databases
+- Predictive Analytics
+- Computer Vision
+- Data Visualization
+
+---
+
+## Technical Skills
+
+### Programming & Data
+
+- Python
+- SQL
+- Pandas
+- NumPy
+- Excel
+- Data Cleaning
+- Data Wrangling
+- Exploratory Data Analysis
+- Statistics
+
+### Machine Learning
+
+- Scikit-learn
+- Regression
+- Classification
+- Feature Engineering
+- Feature Scaling
+- Model Evaluation
+- Supervised Learning
+- Predictive Modeling
+
+### Business Intelligence & Visualization
+
+- Power BI
+- Microsoft Excel
+- Matplotlib
+- Seaborn
+- Plotly
+- Dashboard Development
+- KPI Reporting
+
+### Computer Vision
+
+- OpenCV
+- YOLOv8
+- Object Detection
+- Real-Time Detection
+- Distance Estimation
+- Risk Classification
+
+### Development Tools
+
+- Git
+- GitHub
+- Jupyter Notebook
+- Google Colab
+- VS Code
+- Flask
+
+---
+
+# Featured Projects
+
+## Amazon Sales Analysis & Business Intelligence Dashboard
+
+A Power BI dashboard designed to analyze large-scale sales data and provide actionable business insights.
+
+### Highlights
+
+- $92M+ revenue analyzed
+- 100,000+ orders analyzed
+- 300K+ units analyzed
+- Fulfillment KPIs
+- Monthly sales trends
+- Top product analysis
+- State-level analysis
+- Category-level analysis
+- Interactive dashboard filters
+
+### Technologies
 
 ```text
-Data Collection
-      ↓
+Power BI
+Excel
 Data Cleaning
-      ↓
-Exploratory Data Analysis
-      ↓
-Feature Engineering
-      ↓
-Machine Learning
-      ↓
-Data Visualization
-      ↓
-Business Insights
-      ↓
-Decision Making
+Data Analysis
+Business Intelligence
+Dashboarding
+KPI Reporting
